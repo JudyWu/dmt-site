@@ -36,10 +36,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+   
+</script>
+<script type="text/javascript"
+  src="//www.googleadservices.com/pagead/conversion_async.js">
+</script>
 
 </head>
 
 <body>
+
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
             <div class="navbar-header">
@@ -59,7 +65,11 @@
                     <h2 class="section-heading">Welcome to the Digital Marshmallow Test!</h2>
                     <p class="lead">The Digital Marshmallow Test app (DMT mPulse), powered by Apple’s Researchkit, is a collaborative effort between Northwell Health, Cornell Tech, and Sage Bionetworks. The smartphone app uses brief surveys and game-like tasks to collect information on thoughts, feelings, and behaviors across different situations. The app also collects information on how you use your phone, including battery life. We hope that gathering this information will lead to meaningful advances in learning to help individuals who sometimes have difficulty regulating their behavior or act impulsively in certain situations.</p>
 
-                    <p><a href="https://itunes.apple.com/us/app/dmt-mpulse/id1178781313?mt=8"><img src="css/Download_on_the_App_Store_Badge.svg"></a></p>
+                    <p>
+                       <a href="https://itunes.apple.com/us/app/dmt-mpulse/id1178781313?mt=8" oonclick="goog_report_conversion('https://itunes.apple.com/us/app/dmt-mpulse/id1178781313?mt=8')">
+                       <img src="css/Download_on_the_App_Store_Badge.svg">
+                       </a>
+                    </p>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                 </div>
@@ -114,6 +124,34 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      goog_snippet_vars = function() {
+        var w = window;
+        w.google_conversion_id = 857315668;
+        w.google_conversion_label = "YaKfCJr5zH0Q1LLmmAM";
+        w.google_remarketing_only = false;
+      }
+      // DO NOT CHANGE THE CODE BELOW.
+      goog_report_conversion = function(url) {
+        goog_snippet_vars();
+        window.google_conversion_format = "3";
+        var opt = new Object();
+        opt.onload_callback = function() {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      }
+      var conv_handler = window['google_trackConversion'];
+      if (typeof(conv_handler) == 'function') {
+        conv_handler(opt);
+      }
+    }
+    /* ]]> */
+    </script>
+    <script type="text/javascript"
+      src="//www.googleadservices.com/pagead/conversion_async.js">
+    </script>
 </body>
 
 </html>
